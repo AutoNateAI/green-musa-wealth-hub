@@ -1,56 +1,10 @@
-# Welcome to your Lovable project
+# Green Musa Capital - Frontend
 
-## Project info
+## Project Overview
 
-**URL**: https://lovable.dev/projects/e7a845d0-648f-40c7-bac1-4916cc2a3626
+This is the frontend implementation for Green Musa Capital's website, designed to provide an engaging, informative experience for ESG-focused investors. The website features a modern design, interactive financial tools, and secure client dashboard aligned with Green Musa Capital's mission and values.
 
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/e7a845d0-648f-40c7-bac1-4916cc2a3626) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
+## Technologies Used
 
 This project is built with:
 
@@ -60,14 +14,42 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
+## Documentation
 
-Simply open [Lovable](https://lovable.dev/projects/e7a845d0-648f-40c7-bac1-4916cc2a3626) and click on Share -> Publish.
+The `docs` directory contains critical project documentation:
 
-## Can I connect a custom domain to my Lovable project?
+- **`green_musa_capital_analysis.md`**: Comprehensive research and analysis of Green Musa Capital, including company overview, market position, industry trends, potential growth markets, markets to avoid, and strategic recommendations. This document is built on reputable sources including Harvard Business School research and Tradespoon market intelligence.
 
-Yes, you can!
+- **`green_musa_capital_presentation.md`**: Presentation content for Green Musa Capital, showcasing the company's value proposition and market insights.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+- **`website_requirements.md`**: Detailed requirements specification for the website, including design philosophy, color palette, core pages, membership/authentication features, and dashboard interface specifications.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+These documents provide the strategic foundation and design requirements that inform the implementation of this website.
+
+## Development
+
+To run this project locally:
+
+```sh
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+## Architecture
+
+The frontend follows a component-based architecture with:
+
+- Responsive design for mobile and desktop experiences
+- Client-side authentication system (development only)
+- Interactive financial calculator with usage tracking
+- Dashboard interface with risk management tools
+
+## Next Steps
+
+- Extract brand color hex codes for precise UI styling
+- Implement the financial calculator with membership gating
+- Build article library with ESG-focused content
+- Develop booking system integration for consulting sessions
