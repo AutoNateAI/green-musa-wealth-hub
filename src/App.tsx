@@ -20,7 +20,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/green-musa-wealth-hub">
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<About />} />

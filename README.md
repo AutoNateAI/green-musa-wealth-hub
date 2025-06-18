@@ -47,6 +47,31 @@ The frontend follows a component-based architecture with:
 - Interactive financial calculator with usage tracking
 - Dashboard interface with risk management tools
 
+## Deployment
+
+This project is automatically deployed to GitHub Pages when changes are pushed to the main branch.
+
+### Deployment Process
+
+1. The GitHub Actions workflow in `.github/workflows/deploy.yml` handles the build and deployment process.
+2. When code is pushed to the `main` branch, the workflow will:
+   - Install dependencies
+   - Build the project
+   - Deploy to GitHub Pages
+3. The deployed site will be available at: `https://[username].github.io/green-musa-wealth-hub/`
+
+### Local Testing
+
+Before pushing changes, you can test the production build locally:
+
+```sh
+# Build the project
+npm run build
+
+# Preview the production build
+npm run preview
+```
+
 ## Next Steps
 
 - Extract brand color hex codes for precise UI styling
