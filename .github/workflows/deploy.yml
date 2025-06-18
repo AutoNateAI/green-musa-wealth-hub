@@ -37,16 +37,14 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-        working-directory: ./frontend
 
       - name: Build project
         run: npm run build
-        working-directory: ./frontend
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./frontend/dist
+          path: ./dist
 
   deploy:
     environment:
